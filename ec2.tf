@@ -12,4 +12,17 @@ resource "aws_instance" "gokul" {
 
 }
 
+resource "aws_s3_bucket" "gokuls3" {
+  bucket = "gokul-cbe-2023"
+
+  
+}
+
+resource "aws_s3_bucket" "gokuls31" {
+  bucket = "gokul-cbe-2024"
+
+  
+}
+
+
 
